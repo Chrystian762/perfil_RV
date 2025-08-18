@@ -1,16 +1,15 @@
 import './App.css'
-import PaginaInicial from './componentes/PaginaInicial'
+import MyName from './componentes/MyName'
+import Pessoa from './componentes/Pessoa'
 
 function App() {
   
 
   return (
-    
-<div className="App">
-  <div className="faixaBody"></div>
-  <h1>Wolf Table Tennis </h1>
-  <PaginaInicial/>
-</div>
+    <div className='App'> 
+      <h1>Trabalhando com Propridades</h1>
+        <Pessoa nome=" Chrystian" idade="18" profissao="Jovem Aprendiz"/>
+    </div>
   )
 }
 
